@@ -1,4 +1,4 @@
-<?php /*a:4:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535357564;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535356090;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535356294;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535356470;}*/ ?>
+<?php /*a:4:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535357574;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535359247;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535356294;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535356470;}*/ ?>
 ﻿<!doctype html>
 <html>
 <head>
@@ -15,7 +15,7 @@
     <script src="/static/js/selectivizr-min.js" type="text/javascript"></script>
     <![endif]-->
     <link rel="apple-touch-icon-precomposed" href="/static/images/icon/icon.png">
-    <link rel="shortcut icon" href="/static/images/icon/favicon.ico">
+    <link rel="shortcut icon" href="/static/images/icon/header.png">
     <meta name="Keywords" content="" />
     <meta name="description" content="" />
     <script type="text/javascript">
@@ -71,7 +71,11 @@
   <div class="content-wrap"><!--内容-->
     <div class="content">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> <!--banner-->
-        
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active"> <a href="content.html" target="_blank"><img src="/static/images/img1.jpg" alt="" /></a>
             <div class="carousel-caption"> 欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 </div>
