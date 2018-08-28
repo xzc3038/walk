@@ -1,4 +1,4 @@
-<?php /*a:5:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535437520;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535421400;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535433594;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535433349;s:58:"D:\work\walk\www\application\index\view\common\footer.html";i:1535437370;}*/ ?>
+<?php /*a:5:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535440471;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535421400;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535440412;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535441643;s:58:"D:\work\walk\www\application\index\view\common\footer.html";i:1535437370;}*/ ?>
 ﻿<!doctype html>
 <html>
 <head>
@@ -33,7 +33,7 @@
     <div class="hidden-xs header"><!--超小屏幕不显示-->
         <h1 class="logo"> <a href="index.html" title="异清轩技术博客 - POWERED BY WY ALL RIGHTS RESERVED"></a> </h1>
         <ul class="nav hidden-xs-nav">
-            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>网站首页</a></li>
+            <li class="active"><a href="<?php echo url('index'); ?>"><span class="glyphicon glyphicon-home"></span>网站首页</a></li>
             <!--<li><a href=""><span class="glyphicon glyphicon-erase"></span>网站前端</a></li>-->
             <!--<li><a href=""><span class="glyphicon glyphicon-inbox"></span>后端技术</a></li>-->
             <!--<li><a href=""><span class="glyphicon glyphicon-globe"></span>管理系统</a></li>-->
@@ -121,7 +121,7 @@
                 <dd><span class="name"><a href="javascript:void(0);" title="由 <?php echo htmlentities($v['author']); ?> 发布" rel="author"><?php echo htmlentities($v['author']); ?></a></span> <span class="identity"></span> <span class="time"> <?php echo htmlentities(date("Y-m-d",!is_numeric($v['createtime'])? strtotime($v['createtime']) : $v['createtime'])); ?> </span></dd>
                 <dd class="text"><?php echo htmlentities($v['introduction']); ?></dd>
               </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href=""><?php echo htmlentities($v['label']); ?></a> </span> <span class="look"> 共 <strong><?php echo htmlentities($v['view']); ?></strong> 次浏览</span> </div>
+              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="javascript:void(0);"><?php echo htmlentities($v['label']); ?></a> </span> <span class="look"> 共 <strong><?php echo htmlentities($v['view']); ?></strong> 次浏览</span> </div>
             </div>
           </div>
           <?php endforeach; endif; else: echo "" ;endif; ?>
@@ -137,8 +137,8 @@
   <!--/内容-->
 <aside class="sidebar visible-lg"><!--右侧>992px显示-->
     <div class="sentence"> <strong>每日一句</strong>
-        <h2>2015年11月1日 星期日</h2>
-        <p>你是我人生中唯一的主角，我却只能是你故事中的一晃而过得路人甲。</p>
+        <h2 id="time"></h2>
+        <p><?php echo htmlentities($sentence); ?></p>
     </div>
     <div id="search" class="sidebar-block search" role="search">
         <h2 class="title"><strong>搜索</strong></h2>
@@ -153,17 +153,38 @@
     <div class="sidebar-block recommend">
         <h2 class="title"><strong>热门推荐</strong></h2>
         <ul>
-            <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
+            <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
         </ul>
     </div>
     <div class="sidebar-block comment">
         <h2 class="title"><strong>最新评论</strong></h2>
         <ul>
-            <li data-toggle="tooltip" data-placement="top" title="站长的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>异清轩站长</strong> (2015-10-18) 说：<br />
+            <li data-toggle="tooltip" data-placement="top" title="站长的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>站长</strong> (2015-10-18) 说：<br />
           欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 ...</span></a></li>
         </ul>
     </div>
 </aside>
+
+<script>
+    window.onload=function () {
+        var date = new Date();
+        var year = date.getFullYear();
+        var mouth = date.getMonth() + 1;
+        var day = date.getDate();
+        var week = '星期一';
+        switch (date.getDay()){
+            case 1:week='星期一';break;
+            case 2:week='星期二';break;
+            case 3:week='星期三';break;
+            case 4:week='星期四';break;
+            case 5:week='星期五';break;
+            case 6:week='星期六';break;
+            case 7:week='星期日';break;
+        }
+        var times = year + '年' + mouth + '月' + day + '日  ' + week;
+        $('#time').html(times);
+    };
+</script>
   <footer class="footer">POWERED BY &copy;<a href="http://www.ylsat.com">夏治财 YLSAT.COM</a> ALL RIGHTS RESERVED &nbsp;&nbsp;&nbsp;<span><a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备15026801号-1</a></span> <span style="display:none"><a href="">网站统计</a></span> </footer>
 </section>
 <div><a href="javascript:;" class="gotop" style="display:none;"></a></div>

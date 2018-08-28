@@ -51,3 +51,17 @@ CREATE TABLE IF NOT EXISTS `article` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章表' ROW_FORMAT=COMPACT;
 COMMIT;
 
+--
+-- 表的结构 `sentence`
+--
+
+CREATE TABLE `sentence`(
+`sid` INT(12) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'SID',
+`status` enum('normal','hidden') NOT NULL DEFAULT 'normal' COMMENT '状态',
+`content` text COMMENT '内容',
+`createtime` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '创建时间',
+`updatetime` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '更新时间',
+PRIMARY KEY (`sid`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='每日一句' ROW_FORMAT=COMPACT;
+COMMIT;
+
