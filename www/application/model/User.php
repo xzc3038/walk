@@ -29,4 +29,12 @@ class User extends Model
 //    自动完成 protected $update = array(
 //        'createtime' => '0',
 //    );在写入时，自动存入
+
+//    /**
+//     * 关联评论表Comment
+//     * @return Model|\think\model\relation\HasOne
+//     */
+//    public function comment(){
+//        return $this->hasOne('Comment','id','uid');
+//    }
 }

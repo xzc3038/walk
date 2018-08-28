@@ -1,4 +1,4 @@
-<?php /*a:5:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535420081;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535421400;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535356294;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535356470;s:58:"D:\work\walk\www\application\index\view\common\footer.html";i:1535419688;}*/ ?>
+<?php /*a:5:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535437520;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535421400;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535433594;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535433349;s:58:"D:\work\walk\www\application\index\view\common\footer.html";i:1535437370;}*/ ?>
 ﻿<!doctype html>
 <html>
 <head>
@@ -34,13 +34,13 @@
         <h1 class="logo"> <a href="index.html" title="异清轩技术博客 - POWERED BY WY ALL RIGHTS RESERVED"></a> </h1>
         <ul class="nav hidden-xs-nav">
             <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>网站首页</a></li>
-            <li><a href=""><span class="glyphicon glyphicon-erase"></span>网站前端</a></li>
-            <li><a href=""><span class="glyphicon glyphicon-inbox"></span>后端技术</a></li>
-            <li><a href=""><span class="glyphicon glyphicon-globe"></span>管理系统</a></li>
-            <li><a href="about.html"><span class="glyphicon glyphicon-user"></span>关于我们</a></li>
-            <li><a href="friendly.html"><span class="glyphicon glyphicon-tags"></span>友情链接</a></li>
+            <!--<li><a href=""><span class="glyphicon glyphicon-erase"></span>网站前端</a></li>-->
+            <!--<li><a href=""><span class="glyphicon glyphicon-inbox"></span>后端技术</a></li>-->
+            <!--<li><a href=""><span class="glyphicon glyphicon-globe"></span>管理系统</a></li>-->
+            <!--<li><a href="about.html"><span class="glyphicon glyphicon-user"></span>关于我们</a></li>-->
+            <!--<li><a href="friendly.html"><span class="glyphicon glyphicon-tags"></span>友情链接</a></li>-->
         </ul>
-        <div class="feeds"> <a class="feed feed-xlweibo" href="" target="_blank"><i></i>新浪微博</a> <a class="feed feed-txweibo" href="" target="_blank"><i></i>腾讯微博</a> <a class="feed feed-rss" href="" target="_blank"><i></i>订阅本站</a> <a class="feed feed-weixin" data-toggle="popover" data-trigger="hover" title="微信扫一扫" data-html="true" data-content="<img src='images/weixin.jpg' alt=''>" href="javascript:;" target="_blank"><i></i>关注微信</a> </div>
+        <!--<div class="feeds"> <a class="feed feed-xlweibo" href="" target="_blank"><i></i>新浪微博</a> <a class="feed feed-txweibo" href="" target="_blank"><i></i>腾讯微博</a> <a class="feed feed-rss" href="" target="_blank"><i></i>订阅本站</a> <a class="feed feed-weixin" data-toggle="popover" data-trigger="hover" title="微信扫一扫" data-html="true" data-content="<img src='images/weixin.jpg' alt=''>" href="javascript:;" target="_blank"><i></i>关注微信</a> </div>-->
         <div class="wall"><a href="readerWall.html" target="_blank">读者墙</a> | <a href="tags.html" target="_blank">标签云</a></div>
     </div>
     <!--/超小屏幕不显示-->
@@ -51,11 +51,11 @@
         <div id="header-xs-menu" class="navbar-collapse collapse">
             <ul class="nav navbar-nav header-xs-nav">
                 <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>网站首页</a></li>
-                <li><a href=""><span class="glyphicon glyphicon-erase"></span>网站前端</a></li>
-                <li><a href=""><span class="glyphicon glyphicon-inbox"></span>后端技术</a></li>
-                <li><a href=""><span class="glyphicon glyphicon-globe"></span>管理系统</a></li>
-                <li><a href="about.html"><span class="glyphicon glyphicon-user"></span>关于我们</a></li>
-                <li><a href="friendly.html"><span class="glyphicon glyphicon-tags"></span>友情链接</a></li>
+                <!--<li><a href=""><span class="glyphicon glyphicon-erase"></span>网站前端</a></li>-->
+                <!--<li><a href=""><span class="glyphicon glyphicon-inbox"></span>后端技术</a></li>-->
+                <!--<li><a href=""><span class="glyphicon glyphicon-globe"></span>管理系统</a></li>-->
+                <!--<li><a href="about.html"><span class="glyphicon glyphicon-user"></span>关于我们</a></li>-->
+                <!--<li><a href="friendly.html"><span class="glyphicon glyphicon-tags"></span>友情链接</a></li>-->
             </ul>
             <form class="navbar-form" action="search.php" method="post" style="padding:0 25px;">
                 <div class="input-group">
@@ -78,13 +78,13 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active"> <a href="content.html" target="_blank"><img src="/static/images/img1.jpg" alt="" /></a>
-            <div class="carousel-caption"> 欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 </div>
+            <div class="carousel-caption"> 欢迎来到夏治财的博客，在这里你什么也看不到 </div>
             <span class="carousel-bg"></span> </div>
           <div class="item"> <a href="content.html" target="_blank"><img src="/static/images/img2.jpg" alt="" /></a>
-            <div class="carousel-caption"> 欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 </div>
+            <div class="carousel-caption"> 欢迎来到夏治财的博客，在这里你什么也看不到 </div>
             <span class="carousel-bg"></span> </div>
           <div class="item"> <a href="content.html" target="_blank"><img src="/static/images/img3.jpg" alt="" /></a>
-            <div class="carousel-caption"> 欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 </div>
+            <div class="carousel-caption"> 欢迎来到夏治财的博客，在这里你什么也看不到 </div>
             <span class="carousel-bg"></span> </div>
         </div>
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
@@ -93,118 +93,44 @@
         <h2 class="title"><strong>本周热门排行</strong></h2>
         <ul>
           <li class="large"><a href="content.html" target="_blank"><img src="/static/images/img3.jpg" alt="">
-            <h3> 欢迎来到异清轩技术博客 </h3>
+            <h3> 欢迎来到夏治财的博客 </h3>
             </a></li>
           <li><a href="content.html" target="_blank"><img src="/static/images/logo.jpg" alt="">
-            <h3> 欢迎来到异清轩技术博客,在这里可以看到网站前端和后端的技术等 </h3>
+            <h3> 欢迎来到夏治财的博客，在这里你什么也看不到 </h3>
             </a></li>
           <li><a href="content.html" target="_blank"><img src="/static/images/img2.jpg" alt="">
-            <h3> 欢迎来到异清轩技术博客,在这里可以看到网站前端和后端的技术等 </h3>
+            <h3> 欢迎来到夏治财的博客，在这里你什么也看不到 </h3>
             </a></li>
           <li><a href="content.html" target="_blank"><img src="/static/images/img1.jpg" alt="">
-            <h3> 欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 </h3>
+            <h3> 欢迎来到夏治财的博客，在这里你什么也看不到 </h3>
             </a></li>
           <li><a href="content.html" target="_blank"><img src="/static/images/logo.jpg" alt="">
-            <h3> 欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 </h3>
+            <h3> 欢迎来到夏治财的博客，在这里你什么也看不到 </h3>
             </a></li>
         </ul>
       </div>
       <div class="content-block new-content">
         <h2 class="title"><strong>最新文章</strong></h2>
         <div class="row">
+          <?php if(is_array($articleList) || $articleList instanceof \think\Collection || $articleList instanceof \think\Paginator): if( count($articleList)==0 ) : echo "" ;else: foreach($articleList as $key=>$v): ?>
           <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/logo.jpg" alt=""> </a> </div>
+            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="<?php echo htmlentities($v['image']); ?>" alt=""> </a> </div>
             <div class="news-info col-xs-7 col-sm-7 col-md-8">
               <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
+                <dt> <a href="" target="_blank" > <?php echo htmlentities($v['title']); ?> </a> </dt>
+                <dd><span class="name"><a href="javascript:void(0);" title="由 <?php echo htmlentities($v['author']); ?> 发布" rel="author"><?php echo htmlentities($v['author']); ?></a></span> <span class="identity"></span> <span class="time"> <?php echo htmlentities(date("Y-m-d",!is_numeric($v['createtime'])? strtotime($v['createtime']) : $v['createtime'])); ?> </span></dd>
+                <dd class="text"><?php echo htmlentities($v['introduction']); ?></dd>
               </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
+              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href=""><?php echo htmlentities($v['label']); ?></a> </span> <span class="look"> 共 <strong><?php echo htmlentities($v['view']); ?></strong> 次浏览</span> </div>
             </div>
           </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/img1.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/img2.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/img3.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/logo.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/logo.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/logo.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
-          <div class="news-list">
-            <div class="news-img col-xs-5 col-sm-5 col-md-4"> <a target="_blank" href=""><img src="/static/images/logo.jpg" alt=""> </a> </div>
-            <div class="news-info col-xs-7 col-sm-7 col-md-8">
-              <dl>
-                <dt> <a href="" target="_blank" > 异清轩技术博客正式上线！ </a> </dt>
-                <dd><span class="name"><a href="" title="由 异清轩 发布" rel="author">异清轩</a></span> <span class="identity"></span> <span class="time"> 2015-10-19 </span></dd>
-                <dd class="text">欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术，还有CMS内容管理系统，包括但不限于这些还有CMS内容管理系统，包括但不限于这些。</dd>
-              </dl>
-              <div class="news_bot col-sm-7 col-md-8"> <span class="tags visible-lg visible-md"> <a href="">本站</a> <a href="">异清轩</a> </span> <span class="look"> 共 <strong>2126</strong> 人围观，发现 <strong> 12 </strong> 个不明物体 </span> </div>
-            </div>
-          </div>
+          <?php endforeach; endif; else: echo "" ;endif; ?>
         </div>
+
         <!--<div class="news-more" id="pagination">
         	<a href="">查看更多</a>
         </div>-->
-        <div class="quotes" style="margin-top:15px"><span class="disabled">首页</span><span class="disabled">上一页</span><span class="current">1</span><a href="">2</a><a href="">下一页</a><a href="">尾页</a></div>
+        <div class="quotes" style="margin-top:15px"><?php echo htmlentities($pageList); ?></div>
       </div>
     </div>
   </div>
@@ -228,10 +154,6 @@
         <h2 class="title"><strong>热门推荐</strong></h2>
         <ul>
             <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
-            <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
-            <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
-            <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
-            <li><a target="_blank" href=""> <span class="thumb"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标 ...</span> <span class="text-muted">阅读(2165)</span></a></li>
         </ul>
     </div>
     <div class="sidebar-block comment">
@@ -239,18 +161,10 @@
         <ul>
             <li data-toggle="tooltip" data-placement="top" title="站长的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>异清轩站长</strong> (2015-10-18) 说：<br />
           欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 ...</span></a></li>
-            <li data-toggle="tooltip" data-placement="top" title="读者墙上的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>异清轩站长</strong> (2015-10-18) 说：<br />
-          欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 ...</span></a></li>
-            <li data-toggle="tooltip" data-placement="top" title="异清轩技术博客的SHORTCUT和ICON图标...的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>异清轩站长</strong> (2015-10-18) 说：<br />
-          欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 ...</span></a></li>
-            <li data-toggle="tooltip" data-placement="top" title="异清轩技术博客的SHORTCUT和ICON图标...的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>异清轩站长</strong> (2015-10-18) 说：<br />
-          欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 ...</span></a></li>
-            <li data-toggle="tooltip" data-placement="top" title="异清轩技术博客的SHORTCUT和ICON图标...的评论"><a target="_blank" href=""><span class="face"><img src="/static/images/icon/icon.png" alt=""></span> <span class="text"><strong>异清轩站长</strong> (2015-10-18) 说：<br />
-          欢迎来到异清轩技术博客，在这里可以看到网站前端和后端的技术等 ...</span></a></li>
         </ul>
     </div>
 </aside>
-  <footer class="footer">POWERED BY &copy;<a href="http://www.ylsat.com">异清轩 YLSAT.COM</a> ALL RIGHTS RESERVED &nbsp;&nbsp;&nbsp;<span><a href="http://www.miitbeian.gov.cn/" target="_blank">豫ICP备15026801号-1</a></span> <span style="display:none"><a href="">网站统计</a></span> </footer>
+  <footer class="footer">POWERED BY &copy;<a href="http://www.ylsat.com">夏治财 YLSAT.COM</a> ALL RIGHTS RESERVED &nbsp;&nbsp;&nbsp;<span><a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备15026801号-1</a></span> <span style="display:none"><a href="">网站统计</a></span> </footer>
 </section>
 <div><a href="javascript:;" class="gotop" style="display:none;"></a></div>
 <!--/返回顶部-->

@@ -29,3 +29,25 @@ INSERT INTO `user` (`id`, `username`, `password`, `salt`, `mobile`, `avatar`, `g
 (1, 'xzc', '123456', '', '15057725708', '', 0, NULL, '', 0, 0);
 COMMIT;
 
+
+--
+-- 表的结构 `article`
+--
+
+DROP TABLE IF EXISTS `article`;
+CREATE TABLE IF NOT EXISTS `article` (
+  `cid` int(12) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'CID',
+  `title` text NOT NULL COMMENT '标题',
+  `introduction` text NOT NULL COMMENT '简介',
+  `content` text NOT NULL COMMENT '内容',
+  `label` VARCHAR(12) COMMENT '标签',
+  `author` VARCHAR(12) NOT NULL DEFAULT '佚名' COMMENT '作者',
+  `image` varchar(32) COMMENT '文章图片',
+  `status` enum('normal','hidden') NOT NULL DEFAULT 'normal' COMMENT '状态',
+  `createtime` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '创建时间',
+  `updatetime` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '更新时间',
+  `view` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '浏览次数',
+  PRIMARY KEY (`cid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章表' ROW_FORMAT=COMPACT;
+COMMIT;
+
