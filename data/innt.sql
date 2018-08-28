@@ -65,3 +65,19 @@ PRIMARY KEY (`sid`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='每日一句' ROW_FORMAT=COMPACT;
 COMMIT;
 
+
+--
+-- 表的结构 `message`
+--
+
+CREATE TABLE `message`(
+`mid` INT(12) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'MID',
+`uid` bigint(20) UNSIGNED NOT NULL COMMENT 'UID',
+`status` enum('normal','hidden') NOT NULL DEFAULT 'normal' COMMENT '状态',
+`content` text COMMENT '内容',
+`createtime` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '创建时间',
+`updatetime` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '更新时间',
+PRIMARY KEY (`mid`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='留言' ROW_FORMAT=COMPACT;
+COMMIT;
+

@@ -7,7 +7,7 @@ namespace app\index\controller;
 class User extends Controller
 {
     public function login(){
-        return true;
+        return 1;
     }
 
     public function registed(){
@@ -26,10 +26,10 @@ class User extends Controller
     }
 
     public function forgotpwd(){
-        return true;
+        return 1;
     }
 
     public function resetpwd(){
-        return true;
+        return 1;
     }
 }
