@@ -1,4 +1,4 @@
-<?php /*a:4:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535357574;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535359247;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535356294;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535356470;}*/ ?>
+<?php /*a:5:{s:56:"D:\work\walk\www\application\index\view\index\index.html";i:1535420081;s:58:"D:\work\walk\www\application\index\view\common\header.html";i:1535421400;s:62:"D:\work\walk\www\application\index\view\common\sider-left.html";i:1535356294;s:63:"D:\work\walk\www\application\index\view\common\sider-right.html";i:1535356470;s:58:"D:\work\walk\www\application\index\view\common\footer.html";i:1535419688;}*/ ?>
 ﻿<!doctype html>
 <html>
 <head>
@@ -14,7 +14,7 @@
     <script src="/static/js/respond.min.js" type="text/javascript"></script>
     <script src="/static/js/selectivizr-min.js" type="text/javascript"></script>
     <![endif]-->
-    <link rel="apple-touch-icon-precomposed" href="/static/images/icon/icon.png">
+    <!--<link rel="apple-touch-icon-precomposed" href="/static/images/icon/icon.png">-->
     <link rel="shortcut icon" href="/static/images/icon/header.png">
     <meta name="Keywords" content="" />
     <meta name="description" content="" />
